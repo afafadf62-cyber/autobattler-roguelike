@@ -1,0 +1,26 @@
+[gd_scene load_steps=7 format=3 uid="uid://d02f7j7k3h9m"]
+
+[ext_resource type="Script" path="res://scripts/main.gd"]
+[ext_resource type="Script" path="res://scripts/grid_manager.gd"]
+[ext_resource type="Script" path="res://scripts/unit_manager.gd"]
+[ext_resource type="Script" path="res://scripts/building_manager.gd"]
+[ext_resource type="Script" path="res://scripts/game_manager.gd"]
+[ext_resource type="Script" path="res://scripts/hud.gd"]
+
+[node name="Main" type="Node2D"]
+script = SubResource("GDScript_1")
+
+[node name="GridManager" type="Node2D" parent="."]
+script = SubResource("GDScript_2")
+
+[node name="UnitManager" type="Node" parent="."]
+script = SubResource("GDScript_3")
+
+[node name="BuildingManager" type="Node" parent="."]
+script = SubResource("GDScript_4")
+
+[node name="GameManager" type="Node" parent="."]
+script = SubResource("GDScript_5")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = SubResource("GDScript_6")
