@@ -1,0 +1,19 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go in here are often tweaked, by the editor.
+; They're stored in a pretty human-readable format, with subsections and
+; sub-keys. Hover over a key for more info.
+
+[application]
+
+config/name="AutoBattler Roguelike"
+config/description="A 2D top-down auto-battler strategy game with roguelike elements and tile-based base building"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.2", "mobile")
+config/icon="res://icon.svg"
+
+[debug]
+
+gdscript/warnings/unused_variable=1
+gdscript/warnings/unused_signal=1
+gdscript/warnings/return_value_discarded=1
